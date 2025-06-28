@@ -1,26 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tiny5&family=VT323&display=swap");
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --font-heading: "VT323", monospace;
+  --font-body: "Tiny5", sans-serif;
+  --radius-tab: 0.31rem 0.31rem 0rem 0rem;
+  --radius-default: 0.31rem;
+
+  --color-*: initial;
+  --color-light-primary: rgba(24, 39, 125, 0.86);
+  --color-light-secondary: rgba(99, 148, 208, 1);
+  --color-light-inactive-tab: rgba(99, 148, 208, 0.52);
+  --color-light-accent: rgba(126, 165, 210, 0.75);
+  --color-light-browser: rgb(216, 226, 242);
+  --color-light-search: rgb(220, 228, 243);
+  --color-light-content: rgb(232, 237, 244);
+  --color-light-subtitle: rgba(49, 53, 78, 1);
+  --color-light-body: rgba(10, 11, 22, 0.72);
+  --color-light-active-text: rgba(10, 11, 22, 0.63);
+  --color-light-inactive-text: rgba(10, 11, 22, 0.5);
+
+  --color-dark-primary: rgb(137, 147, 212);
+  --color-dark-secondary: rgb(35, 48, 106);
+  --color-dark-inactive-tab: rgba(35, 48, 106, 0.52);
+  --color-dark-accent: rgb(65, 66, 141);
+  --color-dark-browser: rgb(9, 11, 29);
+  --color-dark-search: rgba(16, 18, 41, 0.62);
+  --color-dark-content: rgb(16, 18, 41);
+  --color-dark-subtitle: #B7BDD8;
+  --color-dark-body: rgba(232, 234, 246, 0.72);
+  --color-dark-active-text: rgba(232, 234, 246, 0.63);
+  --color-dark-inactive-text: rgba(232, 234, 246, 0.5);
+
+  --color-clear: rgba(0, 0, 0, 0)
+
+  --spacing-tab: 0.5rem;
+  --spacing-tab-r: 1.25rem;
+  --spacing-tab-l: 0.75rem;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
+@custom-variant dark (&:where(.dark, .dark *));
