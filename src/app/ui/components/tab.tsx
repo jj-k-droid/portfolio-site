@@ -2,8 +2,7 @@ interface TabProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children: React.ReactNode;
 }
 
-export default function Tab({ children, className, name, ...rest } : TabProps) {
-    const type = name;
+export default function Tab({ children, name, ...rest } : TabProps) {
     if (name === "active") {
         return <main>
             <button

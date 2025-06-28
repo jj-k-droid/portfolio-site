@@ -1,5 +1,3 @@
-import Tab from "./tab";
-
 export default function TabBar({children}) {
     return <div className="flex relative rounded-default outline-4 outline-light-secondary bg-light-browser dark:outline-dark-secondary dark:bg-dark-browser">
         {children}

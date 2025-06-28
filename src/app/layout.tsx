@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { vt323, tiny5 } from "./ui/fonts";
+import {tiny5 } from "./ui/fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {

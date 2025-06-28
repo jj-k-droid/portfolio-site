@@ -1,12 +1,9 @@
-'use client'
-import { vt323 } from "./ui/fonts";
 import Tab from "./ui/components/tab";
 import TabBar from "./ui/components/tab-bar";
-import { useState } from "react";
 
 export default function Page() {
     return (
-        <div className="font-body pr-6 pl-6">jj's portfolio
+        <div className="font-body pr-6 pl-6">jj{"'"}s portfolio
             <div className="pr-8 pl-8 pt-10">
                 <div>
                     <TabBar>
@@ -29,4 +26,4 @@ export default function Page() {
             </div>
         </div>
     )
-}
+};
