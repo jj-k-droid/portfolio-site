@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import {tiny5 } from "./ui/fonts";
 import "./globals.css";
+import ThemeProvider from "./provider";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -14,7 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${tiny5.className} antialiased`}>{children}</body>
+      <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        <body>{children}</body>
+      </ThemeProvider>
     </html>
   );
 }

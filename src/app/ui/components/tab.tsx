@@ -8,7 +8,7 @@ export default function Tab({ children, name, ...rest } : TabProps) {
             <button
                 {...rest}
                 className="flex bg-light-secondary rounded-tab border-4 border-light-secondary pt-tab pl-tab-l pr-tab-r font-heading md:text-xl lg:text-2xl text-light-active-text 
-                dark:bg-dark-secondary dark:text-dark-active-text z-10 after:absolute after:-left-1 box-content dark:border-dark-secondary">
+                dark:bg-dark-secondary dark:text-dark-active-text z-10 after:absolute box-border dark:border-dark-secondary">
                     {children}
                 </button>
         </main>

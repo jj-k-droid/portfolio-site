@@ -14,7 +14,7 @@
   --color-light-inactive-tab: rgba(99, 148, 208, 0.52);
   --color-light-accent: rgba(126, 165, 210, 0.75);
   --color-light-browser: rgb(216, 226, 242);
-  --color-light-search: rgb(220, 228, 243);
+  --color-light-search: rgba(220, 228, 243, 0.85);
   --color-light-content: rgb(232, 237, 244);
   --color-light-subtitle: rgba(49, 53, 78, 1);
   --color-light-body: rgba(10, 11, 22, 0.72);
