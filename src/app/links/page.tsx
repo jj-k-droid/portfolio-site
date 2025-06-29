@@ -38,10 +38,10 @@ export default function Page() {
                         dark:hover:text-dark-active-text dark:active:text-dark-body"/>
                         </button>
                         <div className="flex-initial grow lg:max-w-10/11 relative left-6 font-heading pb-1 rounded-default bg-light-search md:text-sm lg:text-m 
-                    dark:bg-dark-search md:max-w-8/10 sm:max-w-6/10">
+                    dark:bg-dark-search md:max-w-8/10 sm:shrink">
                             <div className="flex-initial pl-3 pt-1.5 pr-20 text-light-inactive-text hover:text-light-active-text dark:text-dark-inactive-text 
                         dark:hover:text-dark-active-text select-none md:pr-10 sm:pr-2">
-                                jj-k-droid.dev{"/"}links
+                                jj-k-droid{"/"}links
                             </div>
                         </div>
                     </div>

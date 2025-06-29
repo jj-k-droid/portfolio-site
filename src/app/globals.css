@@ -33,7 +33,9 @@
   --color-dark-active-text: rgba(232, 234, 246, 0.63);
   --color-dark-inactive-text: rgba(232, 234, 246, 0.5);
 
-  --color-clear: rgba(0, 0, 0, 0)
+  --accent-*: initial;
+  --accent-light: rgba(126, 165, 210, 0.75);
+  --accent-dark: rgb(65, 66, 141);;
 
   --spacing-tab: 0.5rem;
   --spacing-tab-r: 1.25rem;
