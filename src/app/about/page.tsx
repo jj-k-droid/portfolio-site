@@ -1,6 +1,6 @@
-import Tab from "./ui/components/tab";
-import TabBar from "./ui/components/tab-bar";
-import ThemeToggle from "./ui/components/light-dark-toggle";
+import Tab from "../ui/components/tab";
+import TabBar from "../ui/components/tab-bar";
+import ThemeToggle from "../ui/components/light-dark-toggle";
 import { HiRefresh } from "react-icons/hi";
 import Link from "next/link";
 
@@ -12,11 +12,11 @@ export default function Page() {
                     <TabBar>
                         <Link
                             href="/">
-                            <Tab name="active">home</Tab>
+                            <Tab name="inactive">home</Tab>
                         </Link>
                         <Link
                             href="/about">
-                            <Tab name="inactive">about_me</Tab>
+                            <Tab name="active">about_me</Tab>
                         </Link>
                         <Link
                             href="/projects">
@@ -41,14 +41,14 @@ export default function Page() {
                     dark:bg-dark-search md:max-w-8/10 sm:max-w-6/10">
                             <div className="flex-initial pl-3 pt-1.5 pr-20 text-light-inactive-text hover:text-light-active-text dark:text-dark-inactive-text 
                         dark:hover:text-dark-active-text select-none md:pr-10 sm:pr-2">
-                                jj-k-droid.dev{"/"}home
+                                jj-k-droid.dev{"/"}about
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="flex-1/2 h-full relative top-1 rounded-default bg-light-content p-8 font-body text-light-body outline-4 outline-light-secondary 
                 dark:bg-dark-content dark:text-dark-body dark:outline-dark-secondary">
-                    home page
+                    about page
                 </div>
             </div>
         </div>
