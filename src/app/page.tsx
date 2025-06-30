@@ -47,10 +47,10 @@ export default function Page() {
                         </div>
                     </div>
                 </div>
-                <div className="flex-1/2 h-full relative top-1 rounded-default bg-light-browser pl-6 pr-6 font-body text-light-body outline-4 outline-light-secondary 
+                <div className="flex-1 relative top-1 rounded-default bg-light-browser pl-6 pr-6 font-body text-light-body outline-4 outline-light-secondary 
                 dark:bg-dark-content dark:text-dark-body dark:outline-dark-secondary object-bottom">
                     <MainImage />
-                    <div className="flex font-heading w-fit relative -top-5 left-1/10 p-6 pl-8 pr-8 lg:text-2xl rounded-default bg-[#7CA3D6] items-center sm:text-lg md:text-xl
+                    <div className="flex font-heading w-fit relative top-1/30 left-1/10 p-6 pl-8 pr-8 lg:text-2xl rounded-default bg-[#7CA3D6] items-center sm:text-lg md:text-xl
                     dark:text-dark-primary dark:bg-[#363777] text-light-primary">
                         steph kama-kama
                         <br></br>

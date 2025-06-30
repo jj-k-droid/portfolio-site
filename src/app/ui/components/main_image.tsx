@@ -5,7 +5,7 @@ export default function MainImage() {
     const { theme } = useTheme();
 
     return (
-    <div className="flex-initial h-7/10 p-12 pt-12 object-bottom relative top-1/10">
+    <div className="flex-initial h-6/10 pl-12 pr-12 pt-20 object-bottom relative top-1/10">
         {
             theme === "dark" ? (
                 <img src="/media/grid-dark.png" className="w-full h-full rounded-default object-cover border-4 border-dark-body bg-dark-accent/25" />
