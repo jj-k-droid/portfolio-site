@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Page() {
     return (
         <div className="flex rounded-default flex-initial w-8/10 h-dvh place-self-center items-center">
-            <div className="flex flex-col h-9/12 w-full rounded-default bg-light-content outline-4 outline-light-secondary dark:bg-dark-content dark:outline-dark-secondary">
+            <div className="flex flex-col h-10/12 w-full rounded-default bg-light-content outline-4 outline-light-secondary dark:bg-dark-content dark:outline-dark-secondary">
                 <div className="h-fit rounded-default bg-light-secondary outline-4 outline-light-secondary dark:bg-dark-secondary dark:outline-dark-secondary ">
                     <TabBar>
                         <Link

@@ -13,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="bg-light-browser dark:bg-dark-browser">
+    <html lang="en" className="bg-light-content dark:bg-dark-browser">
       <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
         <body>{children}</body>
       </ThemeProvider>
