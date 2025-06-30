@@ -3,8 +3,6 @@ import TabBar from "./ui/components/tab-bar";
 import ThemeToggle from "./ui/components/light-dark-toggle";
 import { HiRefresh } from "react-icons/hi";
 import Link from "next/link";
-import Image from "next/image";
-import { useTheme } from "next-themes";
 import MainImage from "./ui/components/main_image";
 
 export default function Page() {
