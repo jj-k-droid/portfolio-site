@@ -3,7 +3,7 @@ import "./globals.css";
 import ThemeProvider from "./provider";
 
 export const metadata: Metadata = {
-  title: "jj-k-droid's portfolio",
+  title: "jj-k-droid_",
   description: "a portfolio site! wow",
 };
 
@@ -14,9 +14,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="bg-light-content dark:bg-dark-browser">
-      <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
-        <body>{children}</body>
-      </ThemeProvider>
+        <body>
+          <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+            {children}
+          </ThemeProvider>
+        </body>
     </html>
   );
 }
