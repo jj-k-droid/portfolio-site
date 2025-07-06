@@ -9,9 +9,9 @@ export default function MainImage() {
     <div className="flex-initial h-6/10 pl-12 pr-12 pt-20 object-bottom relative top-1/10">
         {
             currentTheme === "dark" ? (
-                <img src="/media/grid-dark.png" className="w-full h-full rounded-default object-cover border-4 border-dark-body bg-dark-accent/25" />
+                <img src="/media/grid-dark.webp" className="w-full h-full rounded-default object-cover border-4 border-dark-body bg-dark-accent/25" />
             ) : (
-                <img src="/media/grid-light.png" className="w-full h-full rounded-default object-cover border-4 border-light-primary bg-light-accent/25" />
+                <img src="/media/grid-light.webp" className="w-full h-full rounded-default object-cover border-4 border-light-primary bg-light-accent/25" />
             )
         }
     </div>)
