@@ -8,7 +8,7 @@ import MainImage from "./ui/components/main_image";
 export default function Page() {
     return (
         <div className="flex rounded-default flex-initial w-dvw h-dvh items-center">
-            <div className="flex flex-col h-10/12 w-8/10 rounded-default bg-light-content outline-4 outline-light-secondary dark:bg-dark-content dark:outline-dark-secondary m-auto">
+            <div className="flex flex-col h-10/12 max-w-8/10 rounded-default bg-light-content outline-4 outline-light-secondary dark:bg-dark-content dark:outline-dark-secondary m-auto">
                 <div className="h-fit rounded-default bg-light-secondary outline-4 outline-light-secondary dark:bg-dark-secondary dark:outline-dark-secondary ">
                     <TabBar>
                         <Link

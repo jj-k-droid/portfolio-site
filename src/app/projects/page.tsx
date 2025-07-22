@@ -46,7 +46,7 @@ export default function Page() {
                         </div>
                     </div>
                 </div>
-                <div className="flex-1/2 h-full relative top-1 rounded-default bg-light-content p-8 font-body text-light-body outline-4 outline-light-secondary 
+                <div className="flex-1/2 h-full relative top-1 rounded-default bg-light-browser p-8 font-body text-light-body outline-4 outline-light-secondary 
                 dark:bg-dark-content dark:text-dark-body dark:outline-dark-secondary">
                     projects page
                 </div>
