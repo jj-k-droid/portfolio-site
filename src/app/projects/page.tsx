@@ -6,8 +6,8 @@ import Link from "next/link";
 
 export default function Page() {
     return (
-        <div className="flex rounded-default flex-initial w-dvw h-dvh items-center">
-            <div className="flex flex-col h-10/12 w-8/10 rounded-default bg-light-content outline-4 outline-light-secondary dark:bg-dark-content dark:outline-dark-secondary m-auto">
+        <div className="flex rounded-default flex-initial w-8/10 h-dvh items-center m-auto">
+            <div className="flex flex-col h-10/12 w-full shrink rounded-default bg-light-content outline-4 outline-light-secondary dark:bg-dark-content dark:outline-dark-secondary m-auto min-w-fit">
                 <div className="h-fit rounded-default bg-light-secondary outline-4 outline-light-secondary dark:bg-dark-secondary dark:outline-dark-secondary ">
                     <TabBar>
                         <Link
@@ -37,10 +37,10 @@ export default function Page() {
                             <HiRefresh className="text-light-inactive-text hover:text-light-active-text active:text-light-body dark:text-dark-inactive-text 
                         dark:hover:text-dark-active-text dark:active:text-dark-body sn"/>
                         </button>
-                        <div className="flex-initial grow lg:max-w-10/11 relative left-6 font-heading pb-1 rounded-default bg-light-search md:text-sm lg:text-m 
-                    dark:bg-dark-search md:max-w-8/10 sm:shrink">
-                            <div className="flex-initial pl-3 pt-1.5 pr-20 text-light-inactive-text hover:text-light-active-text dark:text-dark-inactive-text 
-                        dark:hover:text-dark-active-text select-none md:pr-10 sm:pr-2">
+                        <div className="flex-initial shrink lg:min-w-10/11 relative left-6 font-heading pb-1 rounded-default bg-light-search md:text-sm lg:text-m 
+                    dark:bg-dark-search md:min-w-8/10 sm:min-w-6/10 min-w-fit">
+                            <div className="flex-initial pl-3 pt-1.5 pr-15 text-light-inactive-text hover:text-light-active-text dark:text-dark-inactive-text 
+                        dark:hover:text-dark-active-text select-none md:pr-10 sm:pr-0 sm:text-sm">
                                 jj-k-droid{"/"}projects
                             </div>
                         </div>
