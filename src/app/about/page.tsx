@@ -44,8 +44,8 @@ export default function Page() {
                         </div>
                     </div>
                 </div>
-                <div className="flex-1/2 h-full relative top-1 rounded-default bg-light-browser p-8 font-body text-light-body outline-4 outline-light-secondary dark:bg-dark-content dark:text-dark-body dark:outline-dark-secondary overflow-scroll">
-                    <div className="flex-initial p-6 text-light-body dark:text-dark-active-text md:p-12 text-pretty h-full">
+                <div className="flex-1/2 h-full relative top-1 rounded-default bg-light-browser p-8 font-body text-light-body outline-4 outline-light-secondary dark:bg-dark-content dark:text-dark-body dark:outline-dark-secondary overflow-scroll scroll-pb-12">
+                    <div className="flex-initial p-6 text-light-body dark:text-dark-active-text md:p-12 text-pretty h-full scroll-pb-6">
                       <article className="w-full h-full place-content-center select-none">
                         <div className="h-fit">
                             <div className="grid md:flex md:float-right float-none md:pl-4">
@@ -53,7 +53,7 @@ export default function Page() {
                             </div>
                             <div className="flex-col basis-0 md:basis-2/3 pr-0 md:pr-7 h-full">
                                 <p className="pt-5 md:pt-0 font-heading text-2xl md:text-3xl text-light-primary/80 dark:text-dark-primary">hi, hello! i{"'"}m steph / jj :{")"}</p>
-                                <div className="text-lg">
+                                <div className="text-lg pb-12 md:pb-0">
                                     <p> a sophomore and prospective computer science major with a concentration (minor) in digital studies at <a className="text-light-primary/80 dark:text-dark-primary dark:hover:text-dark-subtitle hover:text-light-primary underline" href="https://www.grinnell.edu/">grinnell college</a> who loves to draw and code. a lot of my current experience comes from making small games or software prototypes, a few personal projects (like this website!) and or classes i have taken.</p>
                                     <p>i plan on building a few projects that combine both sofware and hardware components</p>
                                     <br></br>
