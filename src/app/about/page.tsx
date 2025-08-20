@@ -52,12 +52,12 @@ export default function Page() {
                                 <img className="flex-initial float-none justify-self-center md:float-right rounded-full size-50 md:size-70 shrink p-0 md:p-4 bg-light-secondary/15 dark:bg-dark-secondary/25" src="/media/jj-k-droid-git-pfp.webp"/>
                             </div>
                             <div className="flex-col basis-0 md:basis-2/3 pr-0 md:pr-7 h-full">
-                                <p className="pt-5 md:pt-0 font-heading text-2xl md:text-3xl text-light-primary/80 dark:text-dark-primary">hi, hello! i'm steph / jj :{")"}</p>
+                                <p className="pt-5 md:pt-0 font-heading text-2xl md:text-3xl text-light-primary/80 dark:text-dark-primary">hi, hello! i{"'"}m steph / jj :{")"}</p>
                                 <div className="text-lg">
                                     <p> a sophomore and prospective computer science major with a concentration (minor) in digital studies at <a className="text-light-primary/80 dark:text-dark-primary dark:hover:text-dark-subtitle hover:text-light-primary underline" href="https://www.grinnell.edu/">grinnell college</a> who loves to draw and code. a lot of my current experience comes from making small games or software prototypes, a few personal projects (like this website!) and or classes i have taken.</p>
                                     <p>i plan on building a few projects that combine both sofware and hardware components</p>
                                     <br></br>
-                                    <p>i'm currently looking for software, computer engineering or web development internships or networking opportunites. if you know of any open positions or just want to say hi, feel free to reach out at <a className="text-light-primary/80 hover:text-light-primary dark:text-dark-primary dark:hover:text-dark-subtitle underline" href="mailto:kamakama@grinnell.edu">kamakama@grinnell.edu</a> or using any one of my socials linked <a className="text-light-primary/80 hover:text-light-primary dark:text-dark-primary dark:hover:text-dark-subtitle underline" href="/links">here :{")"}</a></p>
+                                    <p>i{"'"}m currently looking for software, computer engineering or web development internships or networking opportunites. if you know of any open positions or just want to say hi, feel free to reach out at <a className="text-light-primary/80 hover:text-light-primary dark:text-dark-primary dark:hover:text-dark-subtitle underline" href="mailto:kamakama@grinnell.edu">kamakama@grinnell.edu</a> or using any one of my socials linked <a className="text-light-primary/80 hover:text-light-primary dark:text-dark-primary dark:hover:text-dark-subtitle underline" href="/links">here :{")"}</a></p>
                                 </div>
                             </div>
                         </div>
