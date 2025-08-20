@@ -7,7 +7,7 @@ import MainImage from "./ui/components/main_image";
 
 export default function Page() {
     return (
-        <div className="flex rounded-default flex-initial w-8/10 h-dvh items-center m-auto">
+        <div className="flex rounded-default flex-initial w-10/12 h-dvh items-center m-auto">
             <div className="flex flex-col h-10/12 w-full shrink rounded-default bg-light-content outline-4 outline-light-secondary dark:bg-dark-content dark:outline-dark-secondary m-auto min-w-fit">
                 <div className="h-fit rounded-default bg-light-secondary outline-4 outline-light-secondary dark:bg-dark-secondary dark:outline-dark-secondary ">
                     <TabBar>
@@ -32,17 +32,15 @@ export default function Page() {
                             <Tab name="inactive">links</Tab>
                         </Link>
                     </TabBar>
-                    <div className="flex relative pt-2 pl-14.5 pb-1">
+                    <div className="flex relative pt-2 md:pl-14.5 pb-1 pl-2">
                         <ThemeToggle />
                         <button className="relative left-3">
                             <HiRefresh className="text-light-inactive-text hover:text-light-active-text active:text-light-body dark:text-dark-inactive-text 
-                        dark:hover:text-dark-active-text dark:active:text-dark-body"/>
+                        dark:hover:text-dark-active-text dark:active:text-dark-body invisible md:visible"/>
                         </button>
-                        <div className="flex-initial shrink lg:min-w-10/11 relative left-6 font-heading pb-1 rounded-default bg-light-search md:text-sm lg:text-m 
-                    dark:bg-dark-search md:min-w-8/10 sm:min-w-7/10 min-w-fit">
-                            <div className="flex-initial pl-3 pt-1.5 pr-20 text-light-inactive-text hover:text-light-active-text dark:text-dark-inactive-text 
-                        dark:hover:text-dark-active-text select-none md:pr-10 sm:pr-2 sm:text-sm">
-                                jj-k-droid{"/"}home
+                        <div className="flex-initial shrink lg:min-w-10/11 relative md:left-6 font-heading pb-1 rounded-default bg-light-search md:text-sm lg:text-m dark:bg-dark-search min-w-8/10">
+                            <div className="flex-initial pl-3 pt-1.5 pr-20 text-light-inactive-text hover:text-light-active-text dark:text-dark-inactive-text dark:hover:text-dark-active-text select-none md:pr-10 sm:pr-2 sm:text-sm">
+                                jj-k-droid/home
                             </div>
                         </div>
                     </div>

@@ -12,9 +12,9 @@ export default function ThemeToggle() {
         className="rounded-full"
         >
         {theme === 'dark' ? (
-            <HiSun className="text-dark-inactive-text hover:text-dark-active-text active:text-dark-body" />
+            <HiSun className="text-dark-inactive-text hover:text-dark-active-text active:text-dark-body invisible md:visible" />
         ) : (
-            <HiMoon className="text-light-inactive-text hover:text-light-active-text active:text-light-body" />
+            <HiMoon className="text-light-inactive-text hover:text-light-active-text active:text-light-body invisible md:visible" />
         )}
         </button>
     );
