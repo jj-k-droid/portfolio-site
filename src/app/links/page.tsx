@@ -3,6 +3,7 @@ import TabBar from "../ui/components/tab-bar";
 import ThemeToggle from "../ui/components/light-dark-toggle";
 import { HiRefresh } from "react-icons/hi";
 import Link from "next/link";
+import { FaBluesky, FaGithub, FaLinkedinIn, FaItchIo } from "react-icons/fa6";;
 
 export default function Page() {
     return (
@@ -16,7 +17,7 @@ export default function Page() {
                         </Link>
                         <Link
                             href="/about">
-                            <Tab name="inactive">about_me</Tab>
+                            <Tab name="inactive">about</Tab>
                         </Link>
                         <Link
                             href="/projects">
@@ -44,9 +45,43 @@ export default function Page() {
                         </div>
                     </div>
                 </div>
-                <div className="flex-1/2 h-full relative top-1 rounded-default bg-light-browser p-8 font-body text-light-body outline-4 outline-light-secondary 
-                dark:bg-dark-content dark:text-dark-body dark:outline-dark-secondary">
-                    links page
+                <div className="flex-1/2 h-full relative top-1 rounded-default bg-light-browser p-8 font-body text-light-active-text outline-4 outline-light-secondary 
+                dark:bg-dark-content dark:text-dark-active-text dark:outline-dark-secondary overflow-scroll select-none">
+                    <div className="p-6 text-light-body dark:text-dark-body md:pl-12 md:pr-12 text-pretty h-full">
+                        <article className="w-full h-full place-content-center select-none">
+                            <div className="h-fit">
+                                <p className="text-2xl md:text-3xl font-heading text-light-primary/80 dark:text-dark-primary pb-6">you can find me on...</p> 
+                                <div className="w-full">
+                                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 content-center">
+                                        <div className="text-center p-6 rounded-default m-auto my-3 bg-light-inactive-tab/25 dark:bg-dark-inactive-tab/25 hover:bg-light-secondary/50 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/80 dark:hover:text-dark-inactive-text h-fit">
+                                            <a href="https://bsky.app/profile/jj-k-droid.bsky.social" className="flex-initial">
+                                                <FaBluesky className="size-15 md:size-20"/>
+                                            </a>
+                                            bluesky
+                                        </div>
+                                        <div className="text-center p-6 rounded-default m-auto my-3 bg-light-inactive-tab/25 dark:bg-dark-inactive-tab/25 hover:bg-light-secondary/50 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/50 dark:hover:text-dark-inactive-text h-fit">
+                                            <a href="https://www.linkedin.com/in/steph-kama-kama/" className="flex-initial">
+                                                <FaLinkedinIn className="size-15 md:size-20"/>
+                                            </a>
+                                            linkedin
+                                        </div>
+                                        <div className="text-center p-6 rounded-default m-auto my-3 bg-light-inactive-tab/25 dark:bg-dark-inactive-tab/25 hover:bg-light-secondary/50 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/50 dark:hover:text-dark-inactive-text h-fit">
+                                            <a href="https://github.com/jj-k-droid" className="flex-initial">
+                                                <FaGithub className="size-15 md:size-20"/>
+                                            </a>
+                                            github
+                                        </div>
+                                        <div className="text-center p-6 rounded-default m-auto my-3 bg-light-inactive-tab/25 dark:bg-dark-inactive-tab/25 hover:bg-light-secondary/50 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/50 dark:hover:text-dark-inactive-text h-fit">
+                                            <a href="https://jj-k.itch.io/" className="flex-initial">
+                                                <FaItchIo className="size-15 md:size-20"/>
+                                            </a>
+                                            itch
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
                 </div>
             </div>
         </div>

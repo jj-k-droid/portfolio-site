@@ -16,7 +16,7 @@ export default function Page() {
                         </Link>
                         <Link
                             href="/about">
-                            <Tab name="inactive">about_me</Tab>
+                            <Tab name="inactive">about</Tab>
                         </Link>
                         <Link
                             href="/projects">
@@ -49,10 +49,11 @@ export default function Page() {
                     <div className="p-6 text-light-body dark:text-dark-body md:pl-12 md:pr-12 text-pretty h-full">
                         <p className="text-2xl md:text-3xl font-heading text-light-primary/80 dark:text-dark-primary pb-6">projects</p> 
                         {/*section*/}
-                        <div className="md:flex my-4 rounded-default p-6 bg-light-secondary/15 dark:bg-dark-secondary/25">
+                        <div className="md:flex my-4 rounded-default p-6 bg-light-secondary/5 dark:bg-dark-secondary/5">
                             <div className="flex-col md:basis-4/5">
                                 <p className="font-heading text-xl md:text-2xl text-light-subtitle dark:text-dark-subtitle">portfolio site</p>
                                 <p className="flex md:pr-6">a portfolio site built using react and next.js. inspired by retro and browser UI</p>
+                                <a className="text-light-primary/80 dark:text-dark-primary dark:hover:text-dark-subtitle hover:text-light-primary underline after:content-['↗']" href="https://github.com/jj-k-droid/portfolio-site">repo</a>
                                 <div className="md:basis-1/5 content-center md:w-fit pt-3">
                                     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 content-center grid-auto-flow-col space-x-3 md:space-x-4">
                                         <p className="p-1 md:p-2 my-1 w-auto min-w-fit rounded-default h-fit bg-light-inactive-tab dark:bg-dark-inactive-tab hover:bg-light-secondary/80 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/80 dark:hover:text-dark-inactive-text">react</p>
@@ -67,10 +68,11 @@ export default function Page() {
                                 <img className="flex-initial float-none justify-self-center md:float-right rounded-default size-40 md:size-50" src="/media/jj-k-droid-git-pfp.webp"/>
                             </div>
                         </div>
-                        <div className="md:flex my-4 rounded-default p-6 bg-light-secondary/15 dark:bg-dark-secondary/25">
+                        <div className="md:flex my-4 rounded-default p-6 bg-light-secondary/5 dark:bg-dark-secondary/5">
                             <div className="flex-col md:basis-4/5">
                                 <p className="font-heading text-xl md:text-2xl text-light-subtitle dark:text-dark-subtitle">tetris in scamper</p>
                                 <p className="flex md:pr-6">NES tetris made in scamper (a scheme derivative) for a CS final</p>
+                                <a className="text-light-primary/80 dark:text-dark-primary dark:hover:text-dark-subtitle hover:text-light-primary underline after:content-['↗']" href="https://github.com/jj-k-droid/Tetris-in-Scamper">repo</a>
                                 <div className="md:basis-1/5 content-center md:w-fit pt-3">
                                     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 content-center grid-auto-flow-col space-x-3 md:space-x-4">
                                         <p className="p-1 md:p-2 my-1 w-auto min-w-fit rounded-default h-fit bg-light-inactive-tab dark:bg-dark-inactive-tab hover:bg-light-secondary/80 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/80 dark:hover:text-dark-inactive-text">scheme</p>

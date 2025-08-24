@@ -16,7 +16,7 @@ export default function Page() {
                         </Link>
                         <Link
                             href="/about">
-                            <Tab name="active">about_me</Tab>
+                            <Tab name="active">about</Tab>
                         </Link>
                         <Link
                             href="/projects">
@@ -46,33 +46,33 @@ export default function Page() {
                 </div>
                 <div className="flex-1/2 h-full relative top-1 rounded-default bg-light-browser p-8 font-body text-light-body outline-4 outline-light-secondary dark:bg-dark-content dark:text-dark-body dark:outline-dark-secondary overflow-scroll scroll-pb-12">
                     <div className="flex-initial p-6 text-light-active-text dark:text-dark-active-text md:p-12 text-pretty h-full">
-                      <article className="w-full h-full place-content-center select-none">
-                        <div className="h-fit">
-                            <div className="grid md:flex md:float-right float-none md:pl-4">
-                                <img className="flex-initial float-none justify-self-center md:float-right rounded-default size-50 md:size-80 shrink bg-light-secondary/15 dark:bg-dark-secondary/25 select-none" src="/media/about-image.webp"/>
-                            </div>
-                            <div className="flex-col basis-0 md:basis-2/3 pr-0 md:pr-7 h-full">
+                        <article className="w-full h-full place-content-center select-none">
+                            <div className="h-fit">
+                                <div className="grid md:flex md:float-right float-none md:pl-4">
+                                    <img className="flex-initial float-none justify-self-center md:float-right rounded-default size-50 md:size-80 shrink bg-light-secondary/15 dark:bg-dark-secondary/25 select-none" src="/media/about-image.webp" />
+                                </div>
                                 <p className="pt-5 md:pt-0 font-heading text-2xl md:text-3xl text-light-primary/80 dark:text-dark-primary">hi, hello! i{"'"}m steph :{")"}</p>
-                                <div className="text-lg pb-12 md:pb-0">
-                                    <p> a sophomore and prospective <a className="bg-light-secondary/25 dark:bg-dark-secondary/50">computer science major with a concentration (minor) in digital studies</a> at <a className="text-light-primary/80 dark:text-dark-primary dark:hover:text-dark-subtitle hover:text-light-primary underline" href="https://www.grinnell.edu/">grinnell college</a>. a lot of my current experience comes from making small games or software prototypes, a few personal projects (like this website!) and classes i have taken</p>
-                                    <p>i{"'"}m interested in software engineering/development, web development and computer engineering - which i hope to peruse a masters in. oustide of coding, <a className="bg-light-secondary/25 dark:bg-dark-secondary/50">i like to read, draw, listen to music, game and make things</a> (sculptures, functional 3d prints, woodworking projects...)</p>
-                                    <br></br>
-                                    <p><a className="bg-light-secondary/25 dark:bg-dark-secondary/50">i{"'"}m currently looking for software, computer engineering and web development internships or networking opportunites</a>. if you know of any open positions or just want to say hi, feel free to reach out at <a className="text-light-primary/80 hover:text-light-primary dark:text-dark-primary dark:hover:text-dark-subtitle underline" href="mailto:kamakama@grinnell.edu">kamakama@grinnell.edu</a> or using any one of my socials linked <a className="text-light-primary/80 hover:text-light-primary dark:text-dark-primary dark:hover:text-dark-subtitle underline" href="/links">here :{")"}</a></p>
-                                    <p>i can use:</p>
-                                    <div className="md:basis-1/5 content-center md:w-fit pt-3">
-                                    <div className="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-6 content-center grid-auto-flow-col space-x-3 md:space-x-4">
-                                        <p className="p-1 md:p-2 my-1 w-auto min-w-fit rounded-default h-fit bg-light-inactive-tab dark:bg-dark-inactive-tab hover:bg-light-secondary/80 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/80 dark:hover:text-dark-inactive-text text-center md:text-left">&nbsp;c&nbsp;</p>
-                                        <p className="p-1 md:p-2 my-1 w-auto min-w-fit rounded-default h-fit bg-light-inactive-tab dark:bg-dark-inactive-tab hover:bg-light-secondary/80 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/80 dark:hover:text-dark-inactive-text text-center md:text-left">react</p>
-                                        <p className="p-1 md:p-2 my-1 w-auto min-w-fit rounded-default h-fit bg-light-inactive-tab dark:bg-dark-inactive-tab hover:bg-light-secondary/80 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/80 dark:hover:text-dark-inactive-text text-center md:text-left">git</p>
-                                        <p className="p-1 md:p-2 my-1 w-auto min-w-fit rounded-default h-fit bg-light-inactive-tab dark:bg-dark-inactive-tab hover:bg-light-secondary/80 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/80 dark:hover:text-dark-inactive-text text-center md:text-left">next.js</p>
-                                        <p className="p-1 md:p-2 my-1 w-auto min-w-fit rounded-default h-fit bg-light-inactive-tab dark:bg-dark-inactive-tab hover:bg-light-secondary/80 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/80 dark:hover:text-dark-inactive-text text-center md:text-left">python</p>
-                                        <p className="p-1 md:p-2 my-1 w-auto min-w-fit rounded-default h-fit bg-light-inactive-tab dark:bg-dark-inactive-tab hover:bg-light-secondary/80 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/80 dark:hover:text-dark-inactive-text text-center md:text-left">tailwind css</p>
+                                <div className="flex-col basis-0 md:basis-2/3 pr-0 md:pr-7 h-full">
+                                    <div className="text-lg pb-12 md:pb-0">
+                                        <p> a sophomore and prospective <a className="bg-light-secondary/25 dark:bg-dark-secondary/50">computer science major with a concentration (minor) in digital studies</a> at <a className="text-light-primary/80 dark:text-dark-primary dark:hover:text-dark-subtitle hover:text-light-primary underline" href="https://www.grinnell.edu/">grinnell college</a>. a lot of my current experience comes from making small games or software prototypes, a few personal projects (like this website!) and classes i have taken</p>
+                                        <p>i{"'"}m interested in software engineering/development, web development and computer engineering - which i hope to peruse a masters in. oustide of coding, <a className="bg-light-secondary/25 dark:bg-dark-secondary/50">i like to read, draw, listen to music, game and make things</a> (sculptures, functional 3d prints, woodworking projects...)</p>
+                                        <br></br>
+                                        <p><a className="bg-light-secondary/25 dark:bg-dark-secondary/50">i{"'"}m currently looking for software, computer engineering and web development internships or networking opportunites</a>. if you know of any open positions or just want to say hi, feel free to reach out at <a className="text-light-primary/80 hover:text-light-primary dark:text-dark-primary dark:hover:text-dark-subtitle underline" href="mailto:kamakama@grinnell.edu">kamakama@grinnell.edu</a> or using any one of my socials linked <a className="text-light-primary/80 hover:text-light-primary dark:text-dark-primary dark:hover:text-dark-subtitle underline" href="/links">here :{")"}</a></p>
+                                        <p>i can use:</p>
+                                        <div className="md:basis-1/5 content-center md:w-fit pt-1 pb-3 md:pb-14 lg:pb-3">
+                                            <div className="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-6 content-center grid-auto-flow-col space-x-3 md:space-x-4">
+                                                <p className="p-1 md:p-2 my-1 w-auto min-w-fit rounded-default h-fit bg-light-inactive-tab dark:bg-dark-inactive-tab hover:bg-light-secondary/80 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/80 dark:hover:text-dark-inactive-text text-center md:text-left">&nbsp;c&nbsp;</p>
+                                                <p className="p-1 md:p-2 my-1 w-auto min-w-fit rounded-default h-fit bg-light-inactive-tab dark:bg-dark-inactive-tab hover:bg-light-secondary/80 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/80 dark:hover:text-dark-inactive-text text-center md:text-left">react</p>
+                                                <p className="p-1 md:p-2 my-1 w-auto min-w-fit rounded-default h-fit bg-light-inactive-tab dark:bg-dark-inactive-tab hover:bg-light-secondary/80 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/80 dark:hover:text-dark-inactive-text text-center md:text-left">git</p>
+                                                <p className="p-1 md:p-2 my-1 w-auto min-w-fit rounded-default h-fit bg-light-inactive-tab dark:bg-dark-inactive-tab hover:bg-light-secondary/80 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/80 dark:hover:text-dark-inactive-text text-center md:text-left">next.js</p>
+                                                <p className="p-1 md:p-2 my-1 w-auto min-w-fit rounded-default h-fit bg-light-inactive-tab dark:bg-dark-inactive-tab hover:bg-light-secondary/80 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/80 dark:hover:text-dark-inactive-text text-center md:text-left">python</p>
+                                                <p className="p-1 md:p-2 my-1 w-auto min-w-fit rounded-default h-fit bg-light-inactive-tab dark:bg-dark-inactive-tab hover:bg-light-secondary/80 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/80 dark:hover:text-dark-inactive-text text-center md:text-left">tailwind css</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                </div>
                             </div>
-                        </div>
-                      </article>
+                        </article>
                     </div>
                 </div>
             </div>

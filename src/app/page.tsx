@@ -17,7 +17,7 @@ export default function Page() {
                         </Link>
                         <Link
                             href="/about">
-                            <Tab name="inactive">about_me</Tab>
+                            <Tab name="inactive">about</Tab>
                         </Link>
                         <Link
                             href="/projects">
