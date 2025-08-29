@@ -35,8 +35,7 @@ export default function Page() {
                     <div className="flex relative pt-2 md:pl-14.5 pb-1 pl-2">
                         <ThemeToggle />
                         <button className="relative left-3">
-                            <HiRefresh className="text-light-inactive-text hover:text-light-active-text active:text-light-body dark:text-dark-inactive-text 
-                        dark:hover:text-dark-active-text dark:active:text-dark-body invisible md:visible"/>
+                            <HiRefresh className="text-light-inactive-text hover:text-light-active-text active:text-light-body dark:text-dark-inactive-text  dark:hover:text-dark-active-text dark:active:text-dark-body invisible md:visible"/>
                         </button>
                         <div className="flex-initial shrink lg:min-w-10/11 relative md:left-6 font-heading pb-1 rounded-default bg-light-search md:text-sm lg:text-m dark:bg-dark-search min-w-8/10">
                             <div className="flex-initial pl-3 pt-1.5 pr-20 text-light-inactive-text hover:text-light-active-text dark:text-dark-inactive-text dark:hover:text-dark-active-text select-none md:pr-10 sm:pr-2 sm:text-sm">
@@ -48,11 +47,9 @@ export default function Page() {
                 <div className="flex-1 relative top-1 rounded-default bg-light-browser pl-6 pr-6 font-body text-light-body outline-4 outline-light-secondary 
                 dark:bg-dark-content dark:text-dark-body dark:outline-dark-secondary object-bottom overflow-scroll scroll-pb-12">
                     <MainImage />
-                    <div className="flex font-heading w-fit relative top-1/30 left-1/10 p-6 pl-8 pr-8 lg:text-2xl rounded-default bg-[#7CA3D6] items-center sm:text-lg md:text-xl
+                    <div className="flex font-heading w-fit relative top-1/30 left-1/10 p-6 pl-8 pr-8 text-2xl md:text-4xl rounded-default bg-[#7CA3D6] items-center
                     dark:text-dark-primary dark:bg-[#363777] text-light-primary select-none">
-                        steph kama-kama
-                        <br></br>
-                        cs, digital studies + dev_
+                        welcome!
                     </div>
                 </div>
             </div>

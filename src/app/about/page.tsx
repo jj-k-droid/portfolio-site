@@ -49,7 +49,7 @@ export default function Page() {
                         <article className="w-full h-full place-content-center select-none">
                             <div className="h-fit">
                                 <div className="grid md:flex md:float-right float-none md:pl-4">
-                                    <img className="flex-initial float-none justify-self-center md:float-right rounded-default size-50 md:size-80 shrink bg-light-secondary/15 dark:bg-dark-secondary/25 select-none" src="/media/about-image.webp" />
+                                    <img className="flex-initial float-none justify-self-center md:float-right rounded-default size-50 md:size-70 lg:size-80 shrink bg-light-secondary/15 dark:bg-dark-secondary/25 select-none" src="/media/about-image.webp" />
                                 </div>
                                 <p className="pt-5 md:pt-0 font-heading text-2xl md:text-3xl text-light-primary/80 dark:text-dark-primary">hi, hello! i{"'"}m steph :{")"}</p>
                                 <div className="flex-col basis-0 md:basis-2/3 pr-0 md:pr-7 h-full">
