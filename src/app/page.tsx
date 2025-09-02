@@ -19,14 +19,14 @@ export default function Page() {
                             href="/about">
                             <Tab name="inactive">about</Tab>
                         </Link>
-                        <Link
+                        {/* <Link
                             href="/projects">
                             <Tab name="inactive">projects</Tab>
+                        </Link> */}
+                        <Link
+                            href="/blog">
+                            <Tab name="inactive">blog</Tab>
                         </Link>
-                        {/* <Link
-                            href="/vivero">
-                            <Tab name="inactive">vivero</Tab>
-                        </Link>*/}
                         <Link
                             href="/links">
                             <Tab name="inactive">links</Tab>
@@ -57,9 +57,10 @@ export default function Page() {
                         <div className="md:basis-1/5 content-center md:w-fit md:pr-12 md:top-0 relative -top-4/10">
                             <div className="grid">
                                 <a className="p-1 md:p-2 my-1 w-auto min-w-fit rounded-default h-fit bg-light-inactive-tab dark:bg-dark-inactive-tab hover:bg-light-secondary/80 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/80 dark:hover:text-dark-inactive-text text-center md:text-left" href="/about">about me</a>
-                                <a className="p-1 md:p-2 my-1 w-auto min-w-fit rounded-default h-fit bg-light-inactive-tab dark:bg-dark-inactive-tab hover:bg-light-secondary/80 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/80 dark:hover:text-dark-inactive-text text-center md:text-left" href="/projects">projects</a>
+                                <a className="p-1 md:p-2 my-1 w-auto min-w-fit rounded-default h-fit bg-light-inactive-tab dark:bg-dark-inactive-tab hover:bg-light-secondary/80 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/80 dark:hover:text-dark-inactive-text text-center md:text-left" href="/blog">blog</a>
                                 <a className="p-1 md:p-2 my-1 w-auto min-w-fit rounded-default h-fit bg-light-inactive-tab dark:bg-dark-inactive-tab hover:bg-light-secondary/80 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/80 dark:hover:text-dark-inactive-text text-center md:text-left" href="/links">links</a>
-                                <a className="p-1 md:p-2 my-1 w-auto min-w-fit rounded-default h-fit bg-light-inactive-tab dark:bg-dark-inactive-tab hover:bg-light-secondary/80 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/80 dark:hover:text-dark-inactive-text text-center md:text-left" href="https://vivero.steph-k.sites.grinnell.edu">vivero</a>
+                                <a className="p-1 md:p-2 my-1 w-auto min-w-fit rounded-default h-fit bg-light-inactive-tab dark:bg-dark-inactive-tab hover:bg-light-secondary/80 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/80 dark:hover:text-dark-inactive-text text-center md:text-left" href="/404">project site</a>
+                                <a className="p-1 md:p-2 my-1 w-auto min-w-fit rounded-default h-fit bg-light-inactive-tab dark:bg-dark-inactive-tab hover:bg-light-secondary/80 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/80 dark:hover:text-dark-inactive-text text-center md:text-left" href="https://jj-k-droid.dev">main site</a>
                             </div>
                         </div>
                     </div>
