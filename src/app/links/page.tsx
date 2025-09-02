@@ -19,14 +19,14 @@ export default function Page() {
                             href="/about">
                             <Tab name="inactive">about</Tab>
                         </Link>
-                        <Link
+                        {/* <Link
                             href="/projects">
                             <Tab name="inactive">projects</Tab>
+                        </Link> */}
+                        <Link
+                            href="/blog">
+                            <Tab name="inactive">blog</Tab>
                         </Link>
-                        {/* <Link
-                            href="/vivero">
-                            <Tab name="inactive">vivero</Tab>
-                        </Link>*/}
                         <Link
                             href="/links">
                             <Tab name="active">links</Tab>
