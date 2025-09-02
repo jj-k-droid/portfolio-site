@@ -49,8 +49,8 @@ export default function Page() {
                     <div className="grid md:flex w-full h-full">
                         <div className="w-full pt-16 md:pt-0">
                             <MainImage />
-                            <p className="flex font-heading w-fit relative top-1/30 left-1/10 p-4 md:p-6 pl-8 pr-8 text-2xl md:text-4xl rounded-default bg-[#7CA3D6] items-center
-                            dark:text-dark-primary dark:bg-[#363777] text-light-primary select-none">
+                            <p className="flex font-heading w-fit relative top-1/30 left-1/10 p-4 md:p-6 pl-8 pr-8 text-2xl md:text-4xl rounded-default bg-[#9BB9E1] items-center
+                            dark:text-dark-primary dark:bg-[#1A224B] text-light-primary select-none">
                                 welcome!
                             </p>
                         </div>

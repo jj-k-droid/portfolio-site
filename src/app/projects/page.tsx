@@ -65,7 +65,7 @@ export default function Page() {
                                 </div>
                             </div>
                             <div className="grid md:flex md:float-right float-none md:pl-4 shrink-0 pt-3 md:pt-0">
-                                <img className="flex-initial float-none justify-self-center md:float-right rounded-default size-40 md:size-50" src="/media/jj-k-droid-git-pfp.webp"/>
+                                <img className="flex-initial float-none justify-self-center md:float-right rounded-default size-40 md:size-50" src="/media/portfolio favicon.webp"/>
                             </div>
                         </div>
                         <div className="md:flex my-4 rounded-default p-6 bg-light-secondary/5 dark:bg-dark-secondary/5">
