@@ -16,7 +16,7 @@ export default function Page() {
                         </Link>
                         <Link
                             href="/about">
-                            <Tab name="active">about</Tab>
+                            <Tab name="inactive">about</Tab>
                         </Link>
                         <Link
                             href="/blog">
@@ -35,7 +35,7 @@ export default function Page() {
                         </button>
                         <div className="flex-initial shrink lg:min-w-10/11 relative md:left-6 font-heading pb-1 rounded-default bg-light-search md:text-sm lg:text-m dark:bg-dark-search min-w-8/10">
                             <div className="flex-initial pl-3 pt-1.5 pr-20 text-light-inactive-text hover:text-light-active-text dark:text-dark-inactive-text dark:hover:text-dark-active-text select-none md:pr-10 sm:pr-2 sm:text-sm">
-                                jj-k-droid/home
+                                jj-k-droid/blog
                             </div>
                         </div>
                     </div>

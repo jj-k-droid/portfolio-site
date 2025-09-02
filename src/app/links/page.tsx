@@ -78,7 +78,7 @@ export default function Page() {
                                             itch
                                         </div>
                                         <div className="text-center p-6 rounded-default m-auto my-3 bg-light-inactive-tab/25 dark:bg-dark-inactive-tab/25 hover:bg-light-secondary/50 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/50 dark:hover:text-dark-inactive-text h-fit">
-                                            <a href="https:/jj-k-droid.dev" className="flex-initial">
+                                            <a href="https://jj-k-droid.dev" className="flex-initial">
                                                 <img src="/media/portfolio favicon.webp" className="size-15 md:size-20"/>
                                             </a>
                                             main site
