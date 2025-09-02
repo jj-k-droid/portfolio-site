@@ -15,6 +15,10 @@ export default function Page() {
                             <Tab name="inactive">home</Tab>
                         </Link>
                         <Link
+                            href="/about">
+                            <Tab name="active">about</Tab>
+                        </Link>
+                        <Link
                             href="/blog">
                             <Tab name="active">blog</Tab>
                         </Link>

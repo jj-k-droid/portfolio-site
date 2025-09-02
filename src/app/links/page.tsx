@@ -52,7 +52,7 @@ export default function Page() {
                             <div className="h-fit">
                                 <p className="text-2xl md:text-3xl font-heading text-light-primary/80 dark:text-dark-primary pb-6">you can find me on...</p> 
                                 <div className="w-full">
-                                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 content-center">
+                                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 content-center pb-12 md:pb-0">
                                         <div className="text-center p-6 rounded-default m-auto my-3 bg-light-inactive-tab/25 dark:bg-dark-inactive-tab/25 hover:bg-light-secondary/50 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/80 dark:hover:text-dark-inactive-text h-fit">
                                             <a href="https://bsky.app/profile/jj-k-droid.bsky.social" className="flex-initial">
                                                 <FaBluesky className="size-15 md:size-20"/>
@@ -79,7 +79,7 @@ export default function Page() {
                                         </div>
                                         <div className="text-center p-6 rounded-default m-auto my-3 bg-light-inactive-tab/25 dark:bg-dark-inactive-tab/25 hover:bg-light-secondary/50 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/50 dark:hover:text-dark-inactive-text h-fit">
                                             <a href="https:/jj-k-droid.dev" className="flex-initial">
-                                                <img src="/media/portfolio favicon.png" className="size-15 md:size-20"/>
+                                                <img src="/media/portfolio favicon.webp" className="size-15 md:size-20"/>
                                             </a>
                                             main site
                                         </div>
