@@ -46,7 +46,7 @@ export default function Page() {
                     </div>
                 </div>
                 <div className="flex-1/2 h-full relative top-1 rounded-default bg-light-browser p-8 font-body text-light-active-text outline-4 outline-light-secondary 
-                dark:bg-dark-content dark:text-dark-active-text dark:outline-dark-secondary overflow-scroll select-none">
+                dark:bg-dark-content dark:text-dark-active-text dark:outline-dark-secondary overflow-auto select-none">
                     <div className="p-6 text-light-body dark:text-dark-body md:pl-12 md:pr-12 text-pretty h-full">
                         <article className="w-full h-full place-content-center select-none">
                             <div className="h-fit">

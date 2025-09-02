@@ -6,7 +6,7 @@ export default function MainImage() {
     const currentTheme = theme === "system" ? systemTheme : theme;
 
     return (
-    <div className="flex-initial h-6/10 pl-12 pr-12 pt-20 object-bottom relative top-1/10">
+    <div className="flex-initial h-6/10 pl-12 pr-12 pt-12 md:pt-35 object-bottom relative top-1/10">
         {
             currentTheme === "dark" ? (
                 <img src="/media/grid-dark.webp" className="w-full h-full rounded-default object-cover border-4 border-dark-body bg-dark-accent/25" />

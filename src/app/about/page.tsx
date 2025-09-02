@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Page() {
     return (
         <div className="flex rounded-default flex-initial w-10/12 h-dvh items-center m-auto">
-            <div className="flex flex-col h-10/12 w-full shrink rounded-default bg-light-content outline-4 outline-light-secondary dark:bg-dark-content dark:outline-dark-secondary m-auto min-w-fit">
+            <div className="flex flex-col h-10/12 w-full shrink rounded-default bg-light-browser outline-4 outline-light-secondary dark:bg-dark-content dark:outline-dark-secondary m-auto min-w-fit">
                 <div className="h-fit rounded-default bg-light-secondary outline-4 outline-light-secondary dark:bg-dark-secondary dark:outline-dark-secondary ">
                     <TabBar>
                         <Link
@@ -44,7 +44,7 @@ export default function Page() {
                         </div>
                     </div>
                 </div>
-                <div className="flex-1/2 h-full relative top-1 rounded-default bg-light-browser p-8 font-body text-light-body outline-4 outline-light-secondary dark:bg-dark-content dark:text-dark-body dark:outline-dark-secondary overflow-scroll scroll-pb-12">
+                <div className="flex-1/2 h-full relative top-1 rounded-default bg-light-browser p-8 font-body text-light-body outline-4 outline-light-secondary dark:bg-dark-content dark:text-dark-body dark:outline-dark-secondary overflow-auto scroll-pb-12">
                     <div className="flex-initial p-6 text-light-active-text dark:text-dark-active-text md:p-12 text-pretty h-full">
                         <article className="w-full h-full place-content-center select-none">
                             <div className="h-fit">
@@ -54,10 +54,10 @@ export default function Page() {
                                 <p className="pt-5 md:pt-0 font-heading text-2xl md:text-3xl text-light-primary/80 dark:text-dark-primary">hi, hello! i{"'"}m steph :{")"}</p>
                                 <div className="flex-col basis-0 md:basis-2/3 pr-0 md:pr-7 h-full">
                                     <div className="text-lg pb-12 md:pb-0">
-                                        <p> a sophomore and prospective <a className="bg-light-secondary/25 dark:bg-dark-secondary/50">computer science major with a concentration (minor) in digital studies</a> at <a className="text-light-primary/80 dark:text-dark-primary dark:hover:text-dark-subtitle hover:text-light-primary underline" href="https://www.grinnell.edu/">grinnell college</a>. a lot of my current experience comes from making small games or software prototypes, a few personal projects (like this website!) and classes i have taken</p>
+                                        <p> a sophomore and prospective <a className="bg-light-secondary/25 dark:bg-dark-secondary/50">computer science major with a concentration (minor) in digital studies</a>. a lot of my current experience comes from making small games or software prototypes, a few personal projects (like this website!) and classes i have taken</p>
                                         <p>i{"'"}m interested in software engineering/development, web development and computer engineering - which i hope to peruse a masters in. oustide of coding, <a className="bg-light-secondary/25 dark:bg-dark-secondary/50">i like to read, draw, listen to music, game and make things</a> (sculptures, functional 3d prints, woodworking projects...)</p>
                                         <br></br>
-                                        <p><a className="bg-light-secondary/25 dark:bg-dark-secondary/50">i{"'"}m currently looking for software, computer engineering and web development internships or networking opportunites</a>. if you know of any open positions or just want to say hi, feel free to reach out at <a className="text-light-primary/80 hover:text-light-primary dark:text-dark-primary dark:hover:text-dark-subtitle underline" href="mailto:kamakama@grinnell.edu">kamakama@grinnell.edu</a> or using any one of my socials linked <a className="text-light-primary/80 hover:text-light-primary dark:text-dark-primary dark:hover:text-dark-subtitle underline" href="/links">here :{")"}</a></p>
+                                        <p><a className="bg-light-secondary/25 dark:bg-dark-secondary/50">i{"'"}m currently looking for software, computer engineering and web development internships or networking opportunites</a>. if you know of any open positions or just want to say hi, feel free to reach out <a className="text-light-primary/80 hover:text-light-primary dark:text-dark-primary dark:hover:text-dark-subtitle underline after:content-['↗']" href="mailto:kamakama@grinnell.edu">to my email</a> or using any one of my socials linked <a className="text-light-primary/80 hover:text-light-primary dark:text-dark-primary dark:hover:text-dark-subtitle underline" href="/links">here :{")"}</a></p>
                                         <p>i can use:</p>
                                         <div className="md:basis-1/5 content-center md:w-fit pt-1 pb-3 md:pb-14 lg:pb-3">
                                             <div className="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-6 content-center grid-auto-flow-col space-x-3 md:space-x-4">

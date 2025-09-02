@@ -45,11 +45,23 @@ export default function Page() {
                     </div>
                 </div>
                 <div className="flex-1 relative top-1 rounded-default bg-light-browser pl-6 pr-6 font-body text-light-body outline-4 outline-light-secondary 
-                dark:bg-dark-content dark:text-dark-body dark:outline-dark-secondary object-bottom overflow-scroll scroll-pb-12">
-                    <MainImage />
-                    <div className="flex font-heading w-fit relative top-1/30 left-1/10 p-6 pl-8 pr-8 text-2xl md:text-4xl rounded-default bg-[#7CA3D6] items-center
-                    dark:text-dark-primary dark:bg-[#363777] text-light-primary select-none">
-                        welcome!
+                dark:bg-dark-content dark:text-dark-body dark:outline-dark-secondary object-bottom overflow-auto scroll-pb-12">
+                    <div className="grid md:flex w-full h-full">
+                        <div className="w-full pt-16 md:pt-0">
+                            <MainImage />
+                            <p className="flex font-heading w-fit relative top-1/30 left-1/10 p-4 md:p-6 pl-8 pr-8 text-2xl md:text-4xl rounded-default bg-[#7CA3D6] items-center
+                            dark:text-dark-primary dark:bg-[#363777] text-light-primary select-none">
+                                welcome!
+                            </p>
+                        </div>
+                        <div className="md:basis-1/5 content-center md:w-fit md:pr-12 md:top-0 relative -top-4/10">
+                            <div className="grid">
+                                <a className="p-1 md:p-2 my-1 w-auto min-w-fit rounded-default h-fit bg-light-inactive-tab dark:bg-dark-inactive-tab hover:bg-light-secondary/80 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/80 dark:hover:text-dark-inactive-text text-center md:text-left" href="/about">about me</a>
+                                <a className="p-1 md:p-2 my-1 w-auto min-w-fit rounded-default h-fit bg-light-inactive-tab dark:bg-dark-inactive-tab hover:bg-light-secondary/80 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/80 dark:hover:text-dark-inactive-text text-center md:text-left" href="/projects">projects</a>
+                                <a className="p-1 md:p-2 my-1 w-auto min-w-fit rounded-default h-fit bg-light-inactive-tab dark:bg-dark-inactive-tab hover:bg-light-secondary/80 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/80 dark:hover:text-dark-inactive-text text-center md:text-left" href="/links">links</a>
+                                <a className="p-1 md:p-2 my-1 w-auto min-w-fit rounded-default h-fit bg-light-inactive-tab dark:bg-dark-inactive-tab hover:bg-light-secondary/80 hover:text-light-active-text dark:text-dark-inactive-text dark:hover:bg-dark-secondary/80 dark:hover:text-dark-inactive-text text-center md:text-left" href="https://vivero.steph-k.sites.grinnell.edu">vivero</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

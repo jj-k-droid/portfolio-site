@@ -36,8 +36,8 @@ export default function Page() {
                         </div>
                     </div>
                 </div>
-                <div className="flex-1/2 h-full relative top-1 rounded-default bg-light-browser p-8 font-body text-light-body outline-4 outline-light-secondary 
-                dark:bg-dark-content dark:text-dark-body dark:outline-dark-secondary">
+                <div className="flex-1 relative top-1 rounded-default bg-light-browser pl-6 pr-6 font-body text-light-body outline-4 outline-light-secondary 
+                dark:bg-dark-content dark:text-dark-body dark:outline-dark-secondary object-bottom overflow-auto scroll-pb-12">
                     vivero blog
                 </div>
             </div>
