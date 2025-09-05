@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import ThemeProvider from "./provider";
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata: Metadata = {
   title: "jj-k-droid_",
@@ -17,6 +19,8 @@ export default function RootLayout({
         <body>
           <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
             {children}
+            <SpeedInsights/>
+            <Analytics/>
           </ThemeProvider>
         </body>
     </html>
